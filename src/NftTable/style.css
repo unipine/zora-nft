@@ -1,0 +1,19 @@
+.nftTable {
+  width: 100%;
+}
+
+.nftRow {
+  display: flex;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+.nftImage {
+  width: 100px;
+  height: 100PX;
+  margin-left: 10px;
+}
+
+.NFTInfo {
+  flex: 1;
+}
