@@ -1,19 +1,61 @@
 .nftTable {
   width: 100%;
+  background-color: #000;
+  padding: 10px;
+  max-width: 347px;
 }
 
 .nftRow {
   display: flex;
   padding: 5px;
   border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #1C1C24;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 40px;
 }
 
-.nftImage {
+.nftRow-info {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nftRow-image, .nftRow-image>img {
   width: 100px;
   height: 100PX;
-  margin-left: 10px;
+  border-radius: 5px;
 }
 
-.NFTInfo {
-  flex: 1;
+.nftRow-info--top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nftRow-info--top_name__number {
+  color: #aaa;
+}
+
+.nftRow-info--top_price {
+  display: flex;
+  align-items: center;
+}
+
+.nftRow-info--top__price__icon {
+  width: 15px;
+}
+
+.nftRow-info--bottom {
+  display: flex;
+  align-items: center;
+}
+
+.nftRow-info--bottom_timestamp {
+  font-size: 14px;
+  color: #a98561;
+  padding-left: 3px;
 }

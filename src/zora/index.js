@@ -29,12 +29,15 @@ export const getHighestNfts = () =>
                   transactionHash
                 }
                 price {
-                  usdcPrice {
-                    decimal
-                  }
                   nativePrice {
                     decimal
                   }
+                }
+              }
+              token {
+                name
+                image {
+                  url
                 }
               }
             }

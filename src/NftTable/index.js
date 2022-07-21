@@ -38,7 +38,8 @@ function NftTable() {
             nfts.map((nft) => (
               <NftRow
                 key={`nft-row-${nft.sale.transactionInfo.transactionHash}`}
-                nft={nft.sale}
+                sale={nft.sale}
+                token={nft.token}
               />
             ))}
         </>
