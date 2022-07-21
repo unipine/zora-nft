@@ -14,6 +14,10 @@ yarn
 yarn start
 `
 
+## Result
+
+![Result](https://github.com/unipine/zora-nft/blob/main/public/ui.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
