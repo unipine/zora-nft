@@ -26,8 +26,6 @@ function NftTable() {
     setNfts(nfts);
   };
 
-  console.log(nfts);
-
   return (
     <div className="nftTable">
       {isLoading ? (

@@ -19,11 +19,6 @@ export const getHighestNfts = () =>
           ) {
             nodes {
               sale {
-                saleType
-                saleContractAddress
-                buyerAddress
-                sellerAddress
-                tokenId
                 transactionInfo {
                   blockTimestamp
                   transactionHash
