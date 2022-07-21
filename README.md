@@ -1,3 +1,19 @@
+# Get the latest 10 best selling NFTs - Zora
+
+This project was developed with CRA and Zora API
+
+## Install
+
+`
+yarn
+`
+
+## Run
+
+`
+yarn start
+`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
